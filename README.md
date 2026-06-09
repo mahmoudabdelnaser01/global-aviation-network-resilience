@@ -8,6 +8,44 @@ This project treats the global aviation network as a complex directed graph. By 
 
 The theoretical foundation of this analysis is calibrated against the classic network science models described in Albert-László Barabási's Network Science literature.
 
+🎨 Preview & Visual Showcase
+
+🗺️ Global Flight Trajectories (Geospatial Mapping)
+
+Nodes represent airports scaled by out-degree centrality; edges trace active directed routes mapped to actual coordinates.
+
+🦠 Spreading Dynamics Comparison
+
+Comparing a standard unhindered viral outbreak against an adaptive policy intervention that effectively flattens the curve.
+
+Standard SIR Model (No Intervention)
+
+Adaptive SIR Model (Flattening the Curve)
+
+
+
+
+
+🎨 Louvain Geopolitical Partitioning & Scale-Free Proof
+
+How density dictates geography (automatic grouping into continental communities) along with the log-log degree distribution.
+
+Community Detection (Louvain)
+
+Log-Log Degree Distribution
+
+
+
+
+
+🛡️ Targeted Attack Resiliency (Percolation Curves)
+
+Comparing system resilience under random node deletion (green) vs. targeted hub removal (red).
+
+🎬 Live Contagion Propagation (Spreading Animation)
+
+A dynamic geospatial simulation showcasing real-time viral propagation across global flight corridors.
+
 🚀 Key Features
 
 🔍 1. Topological Profiling
@@ -34,46 +72,7 @@ Spatial Homophily: Demonstrates how flight densities naturally mirror geographic
 
 The Zero-Threshold Dilemma: Illustrates why pandemics spread instantly in Scale-Free networks due to an epidemic threshold approaching zero ($\lambda_c \to 0$).
 
-Policy Interventions & Curve Flattening: Compares a standard unhindered viral outbreak against an Adaptive SIR Model calibrated with real COVID-19 transmission parameters, demonstrating the mathematical efficacy of timely flight bans (dropping transmission $\beta$ from $12\%$ to $2\%$).
-
-🎨 Preview & Visual Showcase
-
-Global Flight Trajectories (Geospatial Mapping)
-
-Nodes represent airports scaled by out-degree centrality; edges trace active directed routes mapped to actual coordinates.
-
-
-Log-Log Degree Distribution
-
-Mathematical proof of the scale-free nature of the global flight graph.
-
-
-Percolation Testing (Robustness Curves)
-
-Comparing system resilience under random node deletion vs. targeted hub removal.
-
-
-Louvain Geopolitical Partitioning
-
-How density dictates geography—automatic grouping of flight routes into continental communities.
-
-
-Spreading Dynamics Comparison
-
-Comparing a standard unhindered pandemic cascade against an adaptive policy intervention that effectively flattens the curve.
-
-Standard SIR Model
-
-Adaptive SIR Model (Flattening the Curve)
-
-
-
-
-
-Live Contagion Propagation (Spreading Animation)
-
-A dynamic geospatial simulation showcasing real-time viral propagation across global flight corridors.
-
+Policy Interventions & Curve Flattening: Demonstrates the mathematical efficacy of timely flight bans (dropping transmission $\beta$ from $12\%$ to $2\%$).
 
 🛠️ Installation & Tech Stack
 
@@ -112,4 +111,4 @@ Barabási, A.-L. (2016). Network Science. Cambridge University Press. Online ver
 
 OpenFlights Airport and Route Database: openflights.org/data.
 
-Developed with ❤️ by Eng. Mahmoud Abdel Nasser
+Developed with ❤️ by Mahmoud Abdel Nasser
