@@ -68,8 +68,14 @@ pip install networkx pandas matplotlib numpy python-louvain pillow
 
 # Launch the analysis pipeline
 jupyter notebook Global_Aviation_Network.ipynb
+```
 
-📂 Repository Structure
+---
+
+## 📂 Repository Structure
+
+```
+global-aviation-network-resilience/
 ├── README.md                     
 ├── Global_Aviation_Network.ipynb 
 ├── data/                         
@@ -83,11 +89,20 @@ jupyter notebook Global_Aviation_Network.ipynb
     ├── live_epidemic_spread.gif
     ├── robustness_curves.png
     └── sir_simulation.png
+```
 
-🎓 References
+---
 
-Barabási, A.-L. (2016). Network Science. Cambridge University Press. Online version at networksciencebook.com.
+## 🎓 References
 
-OpenFlights Airport and Route Database: openflights.org/data.
+- **Barabási, A.-L. (2016).** *Network Science.* Cambridge University Press. Online version at [networksciencebook.com](https://networksciencebook.com)
 
-Developed with ❤️ by Mahmoud Abdel Nasser
+- **OpenFlights Airport and Route Database:** [openflights.org/data](https://openflights.org/data)
+
+---
+
+## 👨‍💻 Author
+
+Developed with ❤️ by **Mahmoud Abdel Nasser**
+
+🔗 [LinkedIn](https://www.linkedin.com/in/mahmoud-abdel-nasser-987657253/)
